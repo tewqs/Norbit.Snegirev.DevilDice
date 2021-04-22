@@ -27,11 +27,11 @@ namespace Norbit.Snegirev.DevilDice
         {
             Random rnd = new Random();
             int DiceThrowed = rnd.Next(1, 7);
-            return DiceThrowed;//
+            return DiceThrowed;
         }
 
 
-еу
+
         public Window1()
         {
             InitializeComponent();
