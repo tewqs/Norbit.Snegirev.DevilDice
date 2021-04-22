@@ -1,0 +1,18 @@
+﻿<Window x:Class="Norbit.Snegirev.DevilDice.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Norbit.Snegirev.DevilDice"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <MediaElement x:Name="myGif" MediaEnded="myGif_MediaEnded" UnloadedBehavior="Manual"     Source="Dice.gif" LoadedBehavior="Play" Stretch="None"/>
+        <Button x:Name="Button1" Content="Бросить кости" HorizontalAlignment="Left" Margin="66,0,0,0" VerticalAlignment="Bottom" Height="129" Width="248" Click="Button1_Click"/>
+        <TextBox PreviewTextInput="TextBox_PreviewTextInput" x:Name="TextBox1" HorizontalAlignment="Left" Margin="134,256,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20" RenderTransformOrigin="0.517,0.402"/>
+        <TextBlock FontWeight="Bold" FontSize="25" TextAlignment="Center" x:Name="TextBlock1" HorizontalAlignment="Center" Margin="0,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="85" Width="302"/>
+
+
+
+    </Grid>
+</Window>
